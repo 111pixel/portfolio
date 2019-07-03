@@ -1,0 +1,24 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a {text-decoration: none;}
+li {list-style: none;}
+
+/* Form tag CSS reset */
+input,
+button{
+    background: none;
+    outline: none;
+}
+select {
+    cursor: pointer;
+    outline: none;
+    background: none;
+    border-radius: 0;
+    
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
